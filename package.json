@@ -1,0 +1,30 @@
+{
+  "name": "data-engine-test",
+  "version": "1.0.0",
+  "description": "Test Repo for Data Engine",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "Gibran Iglesias",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
