@@ -1,7 +1,6 @@
 const flightsService = require('../services/flights');
 
 const getAllFlights = (req, res) => {
-    console.log('Check GET ALL');
     const { origin } = req.query;
     try {
     const allFlights = flightsService.getAllFlights({ origin });
@@ -14,7 +13,6 @@ const getAllFlights = (req, res) => {
 };
 
 const postOneFlight = (req, res) => {
-    console.log('Check GET ONE');
     const {
     params: { airline, flight_num },
     } = req;
